@@ -1,0 +1,10 @@
+[global]
+ioengine=sync
+direct=1
+rw=randread
+blocksize=4k
+size=2G
+numjobs=2
+directory=/var/lib/ceph/osd/ceph-0
+runtime=120
+[myReadWriteTest-Thread1]
