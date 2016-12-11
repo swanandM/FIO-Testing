@@ -1,0 +1,15 @@
+[global]
+
+ioengine=rbd
+clientname=admin
+pool=rbd
+rbdname=testimage
+rw=randread
+bs=1MB
+direct=1
+fsync=0
+runtime=60
+numjobs=1
+
+[rbd_iodepth]
+
